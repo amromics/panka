@@ -20,7 +20,11 @@ Requirements:
 ---------------
 How to use Panka
 ---------------
-``` r
+
+Step 1: Download E. coli datasets: 1.download_data.ipynb
+Step 2: Run prokka annotation and panta to construct the pangenome: 2.runProkka_Panta.ipynb
+Step 3: Run panka feature engineerning to get feature matrix (AMR K-mer matrix, SNPs core gene matrix): 3.panka_feature_extraction.ipynb
+The feature matrices are in the directory: data/pantaOut
 
 
 For more realistic examples and Python scripts to reproduce the results
