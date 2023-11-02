@@ -29,9 +29,6 @@ Step 3: Run panka feature engineerning to get feature matrix (AMR K-mer matrix, 
 The feature matrices are in the directory: data/pantaOut
 
 
-For more realistic examples and Python scripts to reproduce the results
-in our paper are available at the producibility directory.
-
 -------
 License
 -------
