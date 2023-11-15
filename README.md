@@ -15,6 +15,8 @@ Requirements:
 * scipy
 * numba
 * panta (https://github.com/amromics/panta)
+* scikit-learn
+* lightGBM
 * more packages in python notebook
 
 ---------------
