@@ -28,6 +28,7 @@ Step 2: Run prokka annotation and panta to construct the pangenome: 2.runProkka_
 Step 3: Run panka feature engineerning to get feature matrix (AMR K-mer matrix, SNPs core gene matrix): 3.panka_feature_extraction.ipynb <br/>
 The feature matrices are in the directory: data/pantaOut
 
+Step 4: Predict AMR phenotype using lightGBM: 4.ML_model.ipynb. Load the feature data from the directory data/pantaOut.
 
 -------
 License
