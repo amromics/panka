@@ -28,9 +28,18 @@ Step 1: Download E. coli datasets: 1.download_data.ipynb
 Step 2: Run prokka annotation and panta to construct the pangenome: 2.runProkka_Panta.ipynb
 
 Step 3: Run panka feature engineerning to get feature matrix (AMR K-mer matrix, SNPs core gene matrix): 3.panka_feature_extraction.ipynb <br/>
-The feature matrices are in the directory: data/pantaOut
 
-Step 4: Predict AMR phenotype using lightGBM: 4.ML_model.ipynb. Load the feature data from the directory data/pantaOut.
+Step 4: Predict AMR phenotype using lightGBM: 4.ML_model.ipynb. Load the feature data from the previous output.
+
+---------------
+Reproducibility
+---------------
+
+To reproduce the benchmark, run each method (PanKA, KmerDNA, KmerProtein, PanPred) in the corresponding folder in the directory "reproducibility".
+
+To run sequence type analysis, see reproducibility/Sequence_subtype_MLST_analysis.
+
+To analyze feature importance in PanKA's model, check reproducibility/Marker_analysis.
 
 -------
 License
