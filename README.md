@@ -23,11 +23,11 @@ Requirements:
 How to use Panka
 ---------------
 
-Step 1: Download E. coli datasets: 1.download_data.ipynb
+Step 1: Download datasets: 1.download_data.ipynb
 
 Step 2: Run prokka annotation and panta to construct the pangenome: 2.runProkka_Panta.ipynb
 
-Step 3: Run panka feature engineerning to get feature matrix (AMR K-mer matrix, SNPs core gene matrix): 3.panka_feature_extraction.ipynb <br/>
+Step 3: Run panka feature engineerning to get feature matrix (AMR K-mer matrix, SNPs core gene matrix): 3.Panka_feature_extraction.ipynb <br/>
 
 Step 4: Predict AMR phenotype using lightGBM: 4.ML_model.ipynb. Load the feature data from the previous output.
 
@@ -35,7 +35,7 @@ Step 4: Predict AMR phenotype using lightGBM: 4.ML_model.ipynb. Load the feature
 Reproducibility
 ---------------
 
-To reproduce the benchmark, run each method (PanKA, KmerDNA, KmerProtein, PanPred) in the corresponding folder in the directory "reproducibility".
+To reproduce the benchmark, begin by downloading the dataset using the provided ENA accession number and Patric ID located in the /data/genomeID_annotation directory. Subsequently, execute each method (PanKA, KmerDNA, KmerProtein, PanPred) within the respective folder in the "reproducibility" directory.
 
 To run sequence type analysis, see reproducibility/Sequence_subtype_MLST_analysis.
 
